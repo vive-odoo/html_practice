@@ -1,0 +1,218 @@
+/* .split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+.left{
+    left: 0;
+    background-color: white;
+}
+.right{
+    right: 0;
+    background-color: blueviolet;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1 px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10 px;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.centered img{
+    width: 150px;
+    border-radius: 50%;
+}
+.disc{
+    border: 2px solid black;
+    text-align: center;
+} */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #333333;
+}
+header{
+    background-color: #008080;
+    color:#ffffff;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+    margin: 0;
+}
+h2{
+    font-size: 24px;
+    margin:0;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+main{
+    padding: 20PX;
+}
+section{
+    margin-bottom:20px;
+    border: 2px solid black !important;
+    margin-left: 2px;
+    padding:4px ;
+    border-radius: 5px;
+}
+h3{
+    font-size: 20px;
+    margin-bottom:10px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-bottom: 5px;
+    color: navy;
+}
+p{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 30px;
+    text-transform: uppercase;
+    color: navy;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: bisque;
+    box-shadow: 5px 10px rgb(175, 153, 125);
+    padding-bottom: 1px; 
+    margin-bottom: 12px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 4px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1 px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10 px;
+    padding-left: 6px;
+    padding-right:  1px;
+   /* margin-right: 3px; */
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+ #about{
+    background-color: bisque;
+    box-shadow: 5px 10px rgb(175, 153, 125);
+}
+#edu{
+    background-color: burlywood;
+    box-shadow: 5px 10px rgb(155, 120, 75);
+}
+#exp{
+    background-color: bisque;
+    box-shadow: 5px 10px rgb(175, 153, 125);
+}
+#skill{
+    background-color: burlywood;
+    box-shadow: 5px 10px rgb(155, 120, 75);
+}
+#achive{
+    background-color: bisque;
+    box-shadow: 5px 10px rgb(175, 153, 125);
+}
+#for{
+    background-color: burlywood;
+    box-shadow: 5px 10px rgb(155, 120, 75);
+}
+/*#edu{
+    /* border: 2px solid black !important; 
+    padding: 2px;
+    margin: 2px;
+    color: navy;
+} */
+input{
+    padding: auto;
+}
+.button{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.button:hover{
+    background-color: yellow;
+    color: black;
+}
+.button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
